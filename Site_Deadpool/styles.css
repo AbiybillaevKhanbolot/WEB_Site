@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    background-image: url('deadpool1.jpg'); 
+    background-size: cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 30px 0;
+    text-align: center;
+    font-size: large;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #720404;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #720404;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #891005;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+aside {
+    width: 200px;
+    text-align: center;
+}
+
+.image {
+    float: left; /* Использую float для размещения изображений */
+    margin-right: 20px; 
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Очищяю float после секции */
+section::after {
+    content: "";
+    display: table;
+    clear: both; /* Очищяю float */
+}
+
+a:hover {
+    color: #ff9900;
+    font-size: 1.2em;
+    transition: color 0.3s, font-saze 0.3s;
+}
+header {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #720404;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    color: #aa0101; 
+    text-decoration: none; 
+}
+
+img {
+    margin-right: 0%;
+    image-orientation: flip;
+}
+
+.audio-container {
+    background-color: #720404;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
