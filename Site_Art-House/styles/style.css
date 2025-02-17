@@ -1,0 +1,775 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 100%;
+    max-width: 1360px;
+    margin: auto;
+    padding: 0 15px;
+   
+}
+
+
+.header{
+    width: 100%;
+
+}
+
+
+.nav {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: space-between; /*выравнивает флекс-элементы внутри флекс-контейнера по основной оси.*/
+    flex-wrap: wrap;
+    flex-shrink: 1; /*элемент будет уменьшаться пропорционально*/
+    gap: 10px;
+
+    
+  }
+  
+  .logo a{
+    width: 130px;
+    height: 23px;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+
+  }
+  .logo a{
+    text-decoration: none;
+  }
+  
+  .logo a:hover{
+    color: #646f7b; 
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    flex-grow: 1;/*указывает, что один элемент займёт всю доступную ширину контейнера.*/
+    text-align: center;
+  }
+  
+  .menu li  a {
+    font-size: 23px;
+    margin-left: 20px;
+    color: #000;
+    flex-grow: 1;
+    text-align: center;
+
+ }
+
+
+.menu li a {
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center; 
+  }
+  
+  .menu li a:hover {
+    color: #646f7b;
+    flex-grow: 1;/*указывает, что один элемент займёт всю доступную ширину контейнера.*/
+    text-align: center;
+  }
+  
+  .hr{
+    width: 100%;
+    max-width: 1360px;
+  }
+
+  .wrapper-art-house{
+    display: flex;
+    justify-content: space-between;/*выравнивает флекс-элементы внутри флекс-контейнера по основной оси.*/
+    flex-wrap: wrap;/*перенос элементов*/
+    gap: 20px;
+   
+  }
+
+.wrapper-art1{
+    width: 784px;
+    font-size: 210px;
+    font-weight: 400;
+  }
+
+  .image, .img1, .img2, .dom3-img, .dom4-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* .wrapper-art1 a{
+    text-decoration: none;
+    color: #000;
+  } */
+ 
+
+.p{
+    width: 556px;
+    height: 58px;
+    margin-top: 300px;
+    font-size: 24px;
+    font-weight: 400;
+
+
+
+  }
+.btn{
+    width: 456px;
+    height: 49px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;/*выравнивает флекс-элементы внутри флекс-контейнера по основной оси.*/
+    position: relative; /*устанавливает положение элемента относительно его исходного места*/
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+
+.text{
+    width: 440px;
+    height: 224px;
+    font-family: Actor;
+    font-size: 23px;
+    font-weight: 400;   
+    text-align: left;
+    color: #000;
+   
+}
+
+.num1{
+position: absolute;
+margin-left: 670px;
+color: #000;
+}
+
+.text1{
+    margin-top: 4em;
+    width: 270px;
+    height: 28px;
+    font-family: Actor;
+    font-size: 23px;
+    font-weight: 400;
+    color: #000;
+   
+}
+
+.title{
+    margin-top: -20px;
+    width: 200px;
+    height: 107px;
+    font-family: Inter;
+    font-size: 89px;
+    font-weight: 500;
+    color: #000;
+  
+}
+
+.section-projects{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.project{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text2{
+    width: 152px;
+    height: 84px;
+    font-family: Actor;
+    font-size: 23px;
+    font-weight: 400;
+
+
+  
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: Actor;
+    font-size: 76px;
+    font-weight: 400;
+  
+
+
+}
+
+
+.project-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    top: 2021px;
+    gap: 2%; /*относительный разрыв*/
+    max-width: 100%;
+
+
+
+
+}
+
+/* //// */
+
+
+.foto1, .foto2{
+    flex: 1 1 calc(50% - 20px);
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.a-blok{
+    flex-direction: column;
+    width: 669px;
+    height: 57px;
+ 
+
+}
+
+.blok1{
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;/*относителльно размер текста*/
+    position: absolute;
+    margin-top: 1rem;
+
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.blok2{
+    position: absolute;
+    margin-top: 35px;
+    width: 669px;
+    height: 57px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    color: #757575;
+}
+
+
+
+
+/* //// */
+
+
+.b-blok{
+    width: 645px;
+    height: 57px;
+ 
+   
+}
+
+.b-blok1{
+    position: absolute;
+    margin-top: 5px;
+    width: 645px;
+    height: 57px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.b-blok2{
+    position: absolute;
+    margin-top: 30px;
+    width: 645px;
+    height: 57px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400; 
+    color: #757575; 
+}
+
+
+.c-blok{
+    position: absolute;
+    width: 670px;
+    height: 86px;
+   
+}
+
+
+.c-blok1{
+    position: absolute;
+    width: 670px;
+    height: 86px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 5px;
+   
+}
+
+.c-blok2{
+    position: absolute;
+    width: 670px;
+    height: 86px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #757575;
+}
+
+/* /// */
+
+
+.section-onas{
+    width: 100%;
+    height: auto;
+    gap: 40px;
+
+
+}
+
+.nas{
+    width: 1361px;
+    height: 157px;
+    gap: 40px;
+
+}
+
+.title-nac{
+    font-family: Actor;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 115.2px;
+    letter-spacing: -0.04em;
+    text-align: center;
+ 
+}
+
+.info{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    gap: 2%;
+    padding: 0 5%;
+  
+
+}
+
+.text-nac{
+    max-width: 100%;
+    height: auto;
+}
+
+.info-nac{
+    max-width: 100%;
+    height: auto;
+    font-family: Actor;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 1px;
+ 
+}
+
+.img-nac{
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+
+/* /// */
+
+.usluga{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    width: 1360px;
+    height: 796px;
+    background: #0b0b0be3;
+    position: relative;
+ 
+}
+.usluga1{
+    position: absolute;
+    width: 223px;
+    height: 77px;
+    margin-top: 35px;
+    margin-left: 50px;
+    font-family: Actor;
+    font-size: 64px;
+    font-weight: 400;
+    color: #f9f7f7;
+
+
+}
+
+.ucluga-hr1{
+    position: absolute;
+    width: 685px;
+    margin-top: 120px;
+    left: 555px;
+    gap: 0px;
+    border: solid 3px rgb(243, 246, 242)
+  
+
+}
+
+.ucluga-hr2{
+    position: absolute;
+    width: 685px;
+    margin-top: 300px;
+    left: 555px;
+    gap: 0px;
+    border: solid 3px rgb(243, 246, 242)
+  
+}
+
+.ucluga-hr3{
+    position: absolute;
+    width: 685px;
+    margin-top: 480px;
+    left: 555px;
+    gap: 0px;
+    border: solid 3px rgb(243, 246, 242)
+  
+
+}
+
+.ucluga-hr4{
+    position: absolute;
+    width: 685px;
+    margin-top: 680px;
+    left: 555px;
+    gap: 0px;
+    border: solid 3px rgb(243, 246, 242);
+  
+
+}
+
+.baza{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 685px;
+    height: 43px;
+    top: 179px;
+    left: 555px;
+    gap: 125px;
+    opacity: 0px;
+    text-align: center;
+
+}
+
+.gip{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 685px;
+    height: 43px;
+    top: 379px;
+    left: 555px;
+    gap: 125px;
+  
+  
+
+}
+
+.pol{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 685px;
+    height: 87px;
+    top: 539px;
+    left: 555px;
+    gap: 125px;
+    opacity: 0px;
+  
+
+}
+
+.baza1{
+    width: 166px;
+    height: 43px;
+    font-family: Actor;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+
+}
+.baza2{
+    width: 555px;
+    height: 29px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.gip1{
+    width: 161px;
+    height: 43px;
+    font-family: Actor;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+.gip2{
+    width: 670px;
+    align-items: center;
+    height: 25px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.pol1{
+    width: 161px;
+    height: 43px;
+    font-family: Actor;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.pol2{
+    width: 403px;
+    height: 87px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+  
+}
+
+
+/* footer */
+
+.footer{
+    position: relative; /*устанавливает положение элемента относительно его исходного места*/
+    padding: 20px;
+    width: 100%; /* Занимает всю ширину экрана */
+    height: auto; /* Высота адаптируется к содержимому */
+    background: url(../img/Rectangle\ 130.png) no-repeat center center;
+    background-size: cover; /* Фон растягивается пропорционально */
+    display: flex; /* Добавьте flex для управления содержимым */
+    flex-direction: column; /* Расположите элементы в колонку */
+    align-items: center; /* Центрируйте содержимое */
+    width: 1360px;
+    height: 636px;
+    z-index: 0 auto;
+    background:url(../img/Rectangle\ 130.png)
+    
+}
+
+.footer-blok{
+    display: flex;
+    flex-wrap: wrap; /* Перенос элементов при недостатке места */
+    justify-content: center; /* Центрирование содержимого */
+    gap: 20px; /* Гибкие отступы между элементами */
+    align-items: flex-start; /* Выровняйте элементы по верху */
+    width: 100%; /* Растягивается на всю ширину */
+    max-width: 1200px; /* Ограничиваем максимальную ширину */
+    background: #f9f9f9ff;
+}
+.footer1, .footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Занимают всю ширину контейнера */
+    max-width: 550px; /* Ограничиваем максимальную ширину */
+    margin: 10px 0; /* Добавляем отступы */
+    padding: 20px; /* Добавляем внутренние отступы */
+    background: #f9f9f9; /* Фон (опционально) */
+    border-radius: 10px; /* Слегка закругляем углы */
+}
+.footer1 input, .footer1 textarea {
+    width: 100%;
+    max-width: 440px; /* Максимальная ширина поля */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #0e0e0f;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer1 input::placeholder, .footer1 textarea::placeholder {
+    color: #757575; /* Цвет текста в плейсхолдере */
+}
+
+/* Стили для поля textarea (сообщение) */
+.footer1 .input-message {
+    height: 120px; /* Высота для textarea */
+}
+
+/* Фокус на input и textarea */
+.footer1 input:focus, .footer1 textarea:focus {
+    border-color: #646f7b;
+    outline: none;
+}
+
+
+.wash{
+    width: 100%;
+    max-width: 440px;
+    font-size: 1.2rem; /*1,2 раза больше*/
+    text-align: center;
+    margin-bottom: 20px;
+    width: 210px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+ 
+  
+   
+}
+
+.name{
+    font-family: Actor;
+    align-items: center;
+    width: 210px;
+    height: 27.45px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    border-bottom: 2px solid #0e0e0f; 
+
+
+
+}
+
+
+.foot-text{
+    margin-top: 40%;
+    width: 440px;
+    height: 58px;
+    font-family: Actor;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+}
+
+.btn3{
+    width: 210px;
+    height: 31px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+
+/* end */
+.end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1360px;
+    background: #000;
+    padding: 20px;
+
+}
+
+.end-h2 {
+    flex-wrap: wrap;
+    width: 150px;
+    height: 131px;
+    font-family: Actor;
+    font-size: 36px;
+    font-weight: 400;
+    color: #757575;
+    
+}
+
+.end-h2  a{
+    text-decoration: none;
+    color: #757575;
+}
+
+
+.end-text1{
+    width: 198px;
+    height: 73px;
+    font-family: Actor;
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+
+}
+
+.end-text2{
+    width: 167px;
+    height: 49px;
+    font-family: Abel;
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30%;
+
+}
+   
+/* Общие стили для текста */
+p, span, h1, h2, li, .wrapper-art1, .text, .text1, .title-nac, .usluga1,.baza2, .gip2, .pol2, .wash, .name, .foot-text, .end-text1, .end-text2 {
+    font-family: 'Actor', sans-serif; /* Шрифт Actor Regular */
+    font-weight: 400;
+}
+
+/* Стили для цифр */
+.title, .title1, .num1 h2, .num2 h2, .baza1, .gip1, .pol1 {
+    font-family: 'Inter', sans-serif; /* Шрифт Inter Medium */
+    font-weight: 500; /* Medium */
+}
+
+/* Пример настройки для блоков */
+.blok1, .blok2, .b-blok1, .b-blok2, .c-blok1, .c-blok2, .info-nac, .text2 {
+    font-family: 'Actor', sans-serif; /* Шрифт Actor Regular */
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Меню становится вертикальным */
+        align-items: flex-start;
+    }
+    .menu li {
+        flex-grow: 0; /* Убрать равномерное распределение */
+        margin-bottom: 10px;
+    }
+    .wrapper-art-house, .section1, .project-img {
+        flex-direction: column; /* Вертикальная ориентация */
+        gap: 20px;
+    }
+}

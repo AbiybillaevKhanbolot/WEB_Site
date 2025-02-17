@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART HOUSE bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Inter:wght@500&display=swap" rel="stylesheet">
+ 
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+        }
+        .logo {
+            font-size: 23px;
+            font-weight: 400;
+        }
+        .menu li {
+            font-size: 23px;
+        }
+        .menu li:hover {
+            opacity: 0.5; /*прозрачность*/
+        }
+        .main-title {
+            font-size: 100px;
+            width: 400px;
+        }
+        .sub-text {
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 250px; /*отступ в вверхней части*/
+            margin-left: 100px;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+        .hr-line {
+            border: 1px solid rgb(0, 0, 0);
+        }
+        .col-md-5{
+            font-size: 20px;
+            font-weight: 400;
+ 
+        }
+        .col-md-6.text-end h2 {
+            font-size: 87px; /* Увеличиваем размер текста */
+            text-align: right; /* Выравниваем текст по правому краю */
+            margin-right: 0; /* Убираем лишний отступ */
+        }
+        .col-md-6.bomb p {
+            margin-top: -145px;
+            font-size: 20px;
+        }
+        .col-md-7.text-end p {
+            text-align: right; /* Выравниваем текст по правому краю */
+            margin: 0; /* Убираем лишние отступы */
+            font-size: 20px; /* Унифицируем размер текста */
+        }
+        .col-md-6 p {
+            font-size: 20px;
+        }
+        .col-md-6.text-end p{
+            font-size: 20px;
+        }
+        .end{
+            display: flex;
+            justify-content: space-around; /*равномерно распределяет элементы вдоль главной оси контейнера*/
+            align-items: center;
+            background: #000;
+            padding: 20px;
+
+        }
+
+        .end-h2 {
+            flex-wrap: wrap;
+            width: 150px;
+            font-family: Actor;
+            font-size: 36px;
+            font-weight: 400;
+            color: #757575;
+            margin-left: 0%;
+
+            
+        }
+
+        .end-h2  a{
+            text-decoration: none;
+            color: #757575;
+        }
+
+
+        .end-text1{
+            width: 198px;
+            height: 73px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #757575;
+
+        }
+
+        .end-text2{
+            width: 167px;
+            height: 49px;
+            font-size: 19px;
+            font-weight: 400;
+            color: #757575;
+
+        }
+        .carousel-inner img {
+            height: 600px; /* Установил желаемую высоту */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="logo">ART HOUSE</span>
+                <ul class="menu list-unstyled d-flex mb-0">
+                    <li class="ms-4">О НАС</li>
+                    <li class="ms-4">ПРОЕКТЫ</li>
+                    <li class="ms-4">КОНТАКТЫ</li>
+                </ul>
+            </div>
+            <hr class="hr-line">
+        </header>
+
+        <!-- Main Content Section -->
+        <section class="row align-items-center mt-5">
+            <div class="col-md-6">
+                <h1 class="main-title">ОПЫТ, ТЕХНОЛОГИЯ, ДИЗАЙН</h1>
+            </div>
+            <div class="col-md-6">
+                <p class="sub-text">Все детали под контролем, и мы их не упустим. Это краеугольный камень нашей корпоративной философии</p>
+            </div>
+        </section>
+
+        <!-- Image Section -->
+        <section class="image mt-5">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/dom1.PNG" class="d-block w-100" alt="Modern House Design">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/dom2.PNG" class="d-block w-100" alt="Alternative Design">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+
+        <!-- Second Content Section -->
+        <section class="row align-items-center mt-4">
+            <div class="col-md-6 bomb">
+                <p>Мы умеем проектировать и строить монолитные конструкции, которые позволяют максимально интересно работать с массой дома. Мы не боимся сложных решений.</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <h2>ЗДАНИЕ<br>ИНТЕРЬЕР<br>АРХИТЕКТУРА</h2>
+            </div>
+        </section>
+
+        <!-- Image Section2 -->
+        <section class="image mt-6">
+            <img src="img/dom2.PNG" alt="Modern House Design2">
+        </section>
+
+        <section class="row align-items-center mt-3">
+            <div class="col-md-6">
+                <p>Наша специализация — строительство жилого дома. У нас многолетний опыт работы в этом сегменте, поэтому мы можем предложить строительную часть, включая поставку всех технологий.</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <p>Мы не просто используем фразу "дом под ключ", вы можете положиться на нас. Мы подготовим полный архитектурный проект интерьера, включая визуализации, которые будут соответствовать вашим идеям и потребностям.</p>
+            </div>
+        </section>
+        
+        
+
+        <!-- Footer Section -->
+        <div class="end">
+            <div class="end1">
+                <h2 class="end-h2"><a href="#">ART HOUSE</a></h2>
+            </div>
+            <div class="end2">
+                <p class="end-text1">Подебрадская 88/55, 198 00 Москва, Россия</p>
+            </div>
+            <div class="end3">
+                <p class="end-text2">+7 900 000 0000 arthouse@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
